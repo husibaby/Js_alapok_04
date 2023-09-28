@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="feladat03.js"></script>
+</head>
+<body>
+    <fieldset>
+        <legend>Személyes Adatok</legend>
+        <label for="titulus">Adja meg a titulusát:</label><br>
+        <select name="titulus" id="titulus">
+            <option value="1">nincs</option>
+            <option value="2">Dr.</option>
+            <option value="3">Ph.D</option>
+            <option value="1">Prof.</option>
+            <option value="2">Ifj</option>
+        </select>
+            <br>
+            <br>
+            <label for="vezeteknev">Adja meg a vezettéknevét:</label>
+            <input type="text" name="vezeteknev" id="vezeteknev" placeholder="Ide írja a vezeteknev"><br>
+            <br>
+
+            <label for="keresztnev">Adja meg a keresztnevét:</label>
+            <input type="text" name="keresztnev" id="keresztnev" placeholder="Ide írja a keresztnevét"><br>
+            <br>
+            <label for="nem">Adja meg a nemét:</label>
+            NŐ
+            <input type="checkbox" name="NŐ" value="NŐ" id="no">
+            FÉRFI
+            <input type="checkbox" name="FÉRFI" value="FÉRFI" id="ferfi"><br>
+            <br>
+            <label for="korod">Addja meg a korát</label>
+            <br>
+            <input type="number" name="korod" id="korod" value="18" min="18"><br>
+            <br>
+            Email:
+            <input type="email" name="" id="" placeholder="Ide írja az email címét"><br>
+            <br>
+            Születési idő:
+            <input type="date" name="" id=""><br>
+            <br>
+            <label for="lakcím">Adja meg a lakcímét:</label><br>
+            <br>
+            <textarea name="lakcím" id="lakcím" cols="50" rows="5"></textarea><br>
+            <br>
+            <label>Kérem elölje meg, hogy mennyire elégedett a lakhelyével?</label>
+            <br><br>
+            
+                <input type="radio" name="likert" id="likert1" value="1">
+                <label class="form-check-label" for="likert1">1 (Egyáltalán nem)</label>
+      
+       
+                <input type="radio" name="likert" id="likert2" value="2">
+                <label class="form-check-label" for="likert2">2</label>
+        
+           
+                <input type="radio" name="likert" id="likert3" value="3">
+                <label class="form-check-label" for="likert3">3 (Semleges)</label>
+         
+          
+                <input type="radio" name="likert" id="likert4" value="4">
+                <label class="form-check-label" for="likert4">4</label>
+            
+          
+                <input type="radio" name="likert" id="likert5" value="5">
+                <label class="form-check-label" for="likert5">5 (Nagyon elégedett)</label>
+                <br><br><br>
+            <input type="submit" value="Elküld">
+            <input type="reset" value="Frissít">
+
+           
+
+    </fieldset>
+
+    
+</body>
+</html>
